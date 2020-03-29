@@ -15,5 +15,12 @@
         "psr-4": {
             "atulPackage\\contactForm\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "atulPackage\\contactForm\\ContactServiceProvider"
+            ]
+        }
     }
 }
