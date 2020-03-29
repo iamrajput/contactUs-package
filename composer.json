@@ -1,0 +1,19 @@
+{
+    "name": "atul/contact-form",
+    "description": "This will be a contact us from for any project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ATUL KUMAR SINGH",
+            "email": "atul19251@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "atulPackage\\contactForm\\": "src/"
+        }
+    }
+}
