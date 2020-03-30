@@ -24,7 +24,7 @@ composer require atul/contact-form
 - php artisan migrate
 - http://127.0.0.1:8000/contact (Web link for access the view page)
 
--Congratulation 😉
+Congratulation 😉
 
 That's It! You're ready with your contact us setup.
 
