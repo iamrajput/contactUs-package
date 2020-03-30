@@ -19,7 +19,7 @@ composer require atul/contact-form
 
 - php artisan vendor:publish
   - Go to the main config folder you can see the contactForm.php set the send_email_to.
-  - Set your mail configuration in .env file
+  - Set up your mail configuration in .env file
   - Set up your database
 - php artisan migrate
 - http://127.0.0.1:8000/contact (Web link for access the view page)
