@@ -22,16 +22,16 @@
     @csrf
     <div class="form-group">
         <label for="exampleFormControlInput1">Your name</label>
-        <input type="text" class="form-control" name="name" id="exampleFormControlInput" placeholder="John Doe">
+        <input type="text" class="form-control" name="name" id="exampleFormControlInput" placeholder="ATUL SINGH RAJPUT" required>
     </div>
     <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="atul19251@gmail.com" required>
     </div>
 
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Enter Your Message</label>
-        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

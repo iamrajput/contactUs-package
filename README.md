@@ -24,6 +24,10 @@ composer require atul/contact-form
 - php artisan migrate
 - http://127.0.0.1:8000/contact (Web link for access the view page)
 
+<img src="https://tagfi-v1.s3.amazonaws.com/package.png" style="height: 300px;width: 400px"/>
+
+
+
 Congratulation 😉
 
 That's It! You're ready with your contact us setup.
