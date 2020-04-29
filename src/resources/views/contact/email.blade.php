@@ -6,7 +6,7 @@ Message:
 {{$message}}
 
 @component('mail::button', ['url' => ''])
-Button Text
+Thank you
 @endcomponent
 
 Thanks,<br>

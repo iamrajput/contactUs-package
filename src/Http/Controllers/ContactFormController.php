@@ -11,7 +11,7 @@ class ContactFormController extends Controller
 {
     public function index()
     {
-        return view('contactForm::contact');
+        return view('contact/contactForm');
     }
 
     public function sendMail(Request $request)

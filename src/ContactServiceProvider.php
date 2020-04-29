@@ -14,7 +14,7 @@ class ContactServiceProvider extends ServiceProvider
         /**
          * For the views files
          */
-        $this->loadViewsFrom(__DIR__.'/resources/views', 'contactForm');
+        $this->loadViewsFrom(__DIR__.'/resources/views/contact', 'contactForm');
         /**
          * database Files
          */
@@ -24,6 +24,12 @@ class ContactServiceProvider extends ServiceProvider
          */
         $this->publishes([
             __DIR__.'/config/contact.php' => config_path('contactForm.php'),
+        ]);
+        $this->publishes([
+            __DIR__.'/resources/views/contact/contact.blade.php' => resource_path('views/contact/contactForm.blade.php'),
+        ]);
+        $this->publishes([
+            __DIR__.'/resources/views/contact/email.blade.php' => resource_path('views/contact/email.blade.php'),
         ]);
     }
     public function register()
