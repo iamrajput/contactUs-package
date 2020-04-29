@@ -23,7 +23,7 @@ composer require atul/contact-form
   - Set up your database
 - php artisan migrate
 - http://127.0.0.1:8000/contact (Web link for access the view page)
-
+- Note:-You can update the view files and email template
 <img src="https://tagfi-v1.s3.amazonaws.com/package.png" style="height: 300px;width: 400px"/>
 
 
